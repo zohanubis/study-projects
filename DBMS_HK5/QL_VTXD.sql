@@ -1,0 +1,169 @@
+﻿CREATE DATABASE QL_VatTuXayDung
+USE QL_VatTuXayDung
+
+CREATE TABLE VatTu (
+	MaVT VARCHAR(10),
+	TenVT NVARCHAR(50) NOT NULL,
+	DVT NVARCHAR(20),
+	SoLuongTon INT,
+	DonGia MONEY,
+	CONSTRAINT PK_VatTu_MaVT PRIMARY KEY (MaVT)
+);
+
+CREATE TABLE NhaCungCap (
+	MaNCC VARCHAR(10),
+	TenNCC NVARCHAR(100) NOT NULL,
+	DiaChi NVARCHAR(100),
+	SDT VARCHAR(20),
+	CONSTRAINT PK_NhaCungCap_MaNCC PRIMARY KEY (MaNCC)
+);
+
+CREATE TABLE DonDatHang (
+	SoDDH VARCHAR(10),
+	MaNCC VARCHAR(10),
+	NgayDat DATE NOT NULL,
+	TongTien MONEY,
+	CONSTRAINT PK_DonDatHang_SoDDH PRIMARY KEY (SoDDH),
+	CONSTRAINT FK_DonDatHang_MaNCC FOREIGN KEY (MaNCC) REFERENCES NhaCungCap(MaNCC)
+);
+
+CREATE TABLE PhieuNhapKho (
+	SoPNK VARCHAR(10),
+	NgayNhap DATE NOT NULL,
+	MaNV VARCHAR(10),
+	CONSTRAINT PK_PhieuNhapKho_SoPNK PRIMARY KEY (SoPNK)
+);
+
+CREATE TABLE PhieuXuatKho (
+	SoPXK VARCHAR(10),
+	NgayXuat DATE NOT NULL,
+	MaNV VARCHAR(10),
+	CONSTRAINT PK_PhieuXuatKho_SoPXK PRIMARY KEY (SoPXK)
+
+);
+
+CREATE TABLE NhanVien (
+	MaNV VARCHAR(10),
+	HoTen NVARCHAR(50) NOT NULL,
+	ChucVu NVARCHAR(50), 
+	CONSTRAINT PK_NhanVien_MaNV PRIMARY KEY (MaNV)
+
+);
+
+CREATE TABLE CTDonDatHang (
+	SoDDH VARCHAR(10),
+	MaVT VARCHAR(10),
+	SoLuong INT,
+	DonGia MONEY,
+	PRIMARY KEY (SoDDH, MaVT),
+	CONSTRAINT FK_CTDDH_SoDDH FOREIGN KEY (SoDDH) REFERENCES DonDatHang(SoDDH),
+	CONSTRAINT FK_CTDDH_MaVT FOREIGN KEY (MaVT) REFERENCES VatTu(MaVT)
+);
+
+CREATE TABLE CTPhieuNhap (
+	SoPNK VARCHAR(10),
+	MaVT VARCHAR(10),
+	SoLuongNhap INT,
+	DonGiaNhap MONEY,
+	PRIMARY KEY (SoPNK, MaVT),
+	CONSTRAINT FK_CTPN_SoPNK FOREIGN KEY (SoPNK) REFERENCES PhieuNhapKho(SoPNK),
+	CONSTRAINT FK_CTPN_MaVT FOREIGN KEY (MaVT) REFERENCES VatTu(MaVT)
+);
+
+CREATE TABLE CTPhieuXuat (
+	SoPXK VARCHAR(10),
+	MaVT VARCHAR(10),
+	SoLuongXuat INT,
+	DonGiaXuat MONEY,
+	PRIMARY KEY (SoPXK, MaVT),
+	CONSTRAINT FK_CTPX_SoPXK FOREIGN KEY (SoPXK) REFERENCES PhieuXuatKho(SoPXK),
+	CONSTRAINT FK_CTPX_MaVT FOREIGN KEY (MaVT) REFERENCES VatTu(MaVT)
+);
+--Nhập liệu
+INSERT INTO NhaCungCap (MaNCC, TenNCC, DiaChi, SDT)
+VALUES
+('NCC01', N'Công ty Xi Măng Hà Tiên', N'Tp.HCM', '02838123456'),
+('NCC02', N'Cty Thép Pomina', N'Bình Dương', '02714563234'),
+('NCC03', N'Công ty gạch Thanh Trì', N'Hà Nội', '02438567345'),
+('NCC04', N'Công ty cát xây dựng Minh Long', N'Bình Phước', '02734567891');
+
+INSERT INTO VatTu (MaVT, TenVT, DVT, SoLuongTon, DonGia)
+VALUES
+('VT01', N'Xi măng', 'Bao', 100, 55000),
+('VT02', N'Sắt thép','Kg', 500, 25000),
+('VT03', N'Gạch ốp lát', 'Viên', 8000, 3000),
+('VT04', N'Cát xây dựng', 'M3', 50, 85000),
+('VT05', N'Đinh', 'Cái', 3000, 200),
+('VT06', N'Bulong', 'Cái', 4000, 500),
+('VT07', N'Vữa xây', 'Kg', 100, 12000),
+('VT08', N'Gạch block', 'Viên' , 5000, 2500),
+('VT09', N'Cọc bê tông', 'Cái', 800, 45000),
+('VT10', N'Tôn', 'Tấm', 450, 100000),
+('VT11', N'Thép hình', 'Thanh', 600, 15000),
+('VT12', N'Ống nước PVC', 'Mét', 350, 65000),
+('VT13', N'Bồn cầu', 'Cái', 80, 1200000),
+('VT14', N'Lavabo', 'Cái', 100, 650000);
+
+INSERT INTO DonDatHang (SoDDH, MaNCC, NgayDat, TongTien)
+VALUES
+('DDH001', 'NCC01', '2023-02-15', 1550000),
+('DDH002', 'NCC02', '2023-02-20', 695000),
+('DDH003', 'NCC03', '2023-02-25', 290000),
+('DDH004', 'NCC01', '2023-03-05', 3750000),
+('DDH005', 'NCC04', '2023-03-12', 3000000);
+
+INSERT INTO PhieuNhapKho (SoPNK, NgayNhap, MaNV)
+VALUES
+('PNK01', '2023-03-01', 'NV01'),
+('PNK02', '2023-03-05', 'NV02'),
+('PNK03', '2023-03-07', 'NV03'),
+('PNK04', '2023-03-15', 'NV02');
+
+INSERT INTO PhieuXuatKho (SoPXK, NgayXuat, MaNV)
+VALUES
+('PXK01', '2023-03-07', 'NV01'),
+('PXK02', '2023-03-10', 'NV03'),
+('PXK03', '2023-03-15', 'NV02'),
+('PXK04', '2023-03-20', 'NV03');
+
+INSERT INTO NhanVien (MaNV, HoTen, ChucVu)
+VALUES
+('NV01', N'Nguyễn Văn A', N'Thủ kho'),
+('NV02', N'Trần Thị B', N'Kế toán'),
+('NV03', N'Lê Văn C', N'Kế toán'),
+('NV04', N'Phạm Văn D', N'Quản lý');
+
+INSERT INTO CTDonDatHang (SoDDH, MaVT, SoLuong, DonGia)
+VALUES
+('DDH001', 'VT01', 100, 55000),
+('DDH001', 'VT02', 300, 25000),
+('DDH001', 'VT04', 50, 85000),
+('DDH002', 'VT03', 2000, 3000),
+('DDH002', 'VT06', 500, 500),
+('DDH003', 'VT05', 1000, 200),
+('DDH003', 'VT07', 80, 12000),
+('DDH004', 'VT08', 300, 2500),
+('DDH004', 'VT09', 100, 45000),
+('DDH005', 'VT10', 30, 100000);
+
+INSERT INTO CTPhieuNhap (SoPNK, MaVT, SoLuongNhap, DonGiaNhap)
+VALUES
+('PNK01', 'VT01', 100, 50000),
+('PNK01', 'VT02', 300, 20000),
+('PNK01', 'VT04', 50, 80000),
+('PNK02', 'VT03', 1500, 2500),
+('PNK02', 'VT06', 500, 450),
+('PNK03', 'VT05', 1000, 180),
+('PNK03', 'VT07', 80, 11500);
+
+INSERT INTO CTPhieuXuat (SoPXK, MaVT, SoLuongXuat, DonGiaXuat)
+VALUES
+('PXK01', 'VT01', 50, 55000),
+('PXK01', 'VT02', 100, 25000),
+('PXK01', 'VT04', 20, 85000),
+('PXK02', 'VT03', 200, 3000),
+('PXK02', 'VT05', 500, 200),
+('PXK03', 'VT06', 100, 500),
+('PXK03', 'VT08', 50, 2500);
+
+

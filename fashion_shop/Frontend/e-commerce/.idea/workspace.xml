@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24fcc6f6-bc1a-441a-aebb-ba7cfee13aac" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/service/ProductServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/config/JWTContant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/config/JWTContant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/config/JWTProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/config/JWTProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/config/JWTValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/config/JWTValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/exception/ProductException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/exception/ProductException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/exception/UserException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/exception/UserException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/model/PaymentInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/model/PaymentInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/model/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/model/Rating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/model/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/model/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/model/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/model/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/request/CreateProductRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/request/CreateProductRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/request/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/request/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/response/AuthResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/response/AuthResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/service/CustomerUserServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/ecommerce_fashion_shop/service/CustomerUserServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Backend/ecommerce-fashion-shop/src/main/java/com/zohanubis/service/UserService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2kNYPHaZSiEWUSEhdQesSiRobI0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/Frontend/e-commerce",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24fcc6f6-bc1a-441a-aebb-ba7cfee13aac" name="Changes" comment="" />
+      <created>1723125475743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723125475743</updated>
+      <workItem from="1723125476876" duration="9000" />
+    </task>
+    <servers />
+  </component>
+</project>

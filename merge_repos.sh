@@ -2,18 +2,11 @@
 
 # Danh sách repo cần gộp
 repos=(
-  "https://github.com/zohanubis/Data-Structures-and-Algorithms.git"
-  "https://github.com/zohanubis/CTDL_GT.git"
-  "https://github.com/zohanubis/front_end.git"
-  "https://github.com/zohanubis/Back-end.git"
-  "https://github.com/zohanubis/CSDL_SQL.git"
-  "https://github.com/zohanubis/NET_Technology.git"
-  "https://github.com/zohanubis/TriTueNhanTao.git"
-  "https://github.com/zohanubis/SWE_Project.git"
-  "https://github.com/zohanubis/dot_net.git"
-  "https://github.com/zohanubis/bookstore_pj.git"
-  "https://github.com/zohanubis/DBMS.git"
-  "https://github.com/zohanubis/OOP.git"
+  "https://github.com/zohanubis/-Develop_smart_applications.git"
+  "https://github.com/zohanubis/fashion_shop.git"
+  "https://github.com/zohanubis/DBMS_HK5.git"
+  "https://github.com/zohanubis/Image_Processing.git"
+  "https://github.com/zohanubis/LapTrinhJava.git"
 )
 
 # Kiểm tra nếu đang ở trong repo git hợp lệ
