@@ -1,0 +1,8 @@
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DTO\bin\Debug\DTO.dll.config
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DTO\bin\Debug\DTO.dll
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DTO\bin\Debug\DTO.pdb
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DTO\obj\Debug\DTO.dll
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DTO\obj\Debug\DTO.pdb
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DTO\bin\Debug\Account_DTO.cs

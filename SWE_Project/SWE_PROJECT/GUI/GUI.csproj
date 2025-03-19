@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F4404AD-884A-41D5-816A-6AEEF4617DA1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net45\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DashBoard_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashBoard_User.Designer.cs">
+      <DependentUpon>DashBoard_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashborad_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashborad_Admin.Designer.cs">
+      <DependentUpon>Dashborad_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBConnect.cs" />
+    <Compile Include="FormTraHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTraHang.Designer.cs">
+      <DependentUpon>FormTraHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KiemTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KiemTra.Designer.cs">
+      <DependentUpon>KiemTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading_Admin.Designer.cs">
+      <DependentUpon>Loading_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading_User.Designer.cs">
+      <DependentUpon>Loading_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuyDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuyDinh.Designer.cs">
+      <DependentUpon>QuyDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimKiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimKiem.Designer.cs">
+      <DependentUpon>TimKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraHang.Designer.cs">
+      <DependentUpon>TraHang.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DashBoard_User.resx">
+      <DependentUpon>DashBoard_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashborad_Admin.resx">
+      <DependentUpon>Dashborad_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTraHang.resx">
+      <DependentUpon>FormTraHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KiemTra.resx">
+      <DependentUpon>KiemTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading_Admin.resx">
+      <DependentUpon>Loading_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading_User.resx">
+      <DependentUpon>Loading_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QuyDinh.resx">
+      <DependentUpon>QuyDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimKiem.resx">
+      <DependentUpon>TimKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraHang.resx">
+      <DependentUpon>TraHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lazada-Logo-PNG-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poster_sale.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-find-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-invoice-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-print-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\categories_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bill-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-layout-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-check.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-status-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-review-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-procedure-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animation - 1700632066637.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\H1DTRfI.md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sign-up-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-reset-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-arrow-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-master-card-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-shipper-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poster_lazada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-100.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,12 @@
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\bin\Debug\Exercise10.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\bin\Debug\Exercise10.exe
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\bin\Debug\Exercise10.pdb
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.MainForm.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.SampleForm.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.exe
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.pdb
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercise10\Exercise10\obj\Debug\Exercise10.ClassForm1.resources

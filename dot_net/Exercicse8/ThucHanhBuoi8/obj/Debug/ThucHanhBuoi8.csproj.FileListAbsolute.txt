@@ -1,0 +1,16 @@
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\bin\Debug\ThucHanhBuoi8.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\bin\Debug\ThucHanhBuoi8.exe
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\bin\Debug\ThucHanhBuoi8.pdb
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.Form1.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.exe
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.pdb
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.Class_Ex1.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.Sample_Ex1.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.Sample_Ex2.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.Class_Ex2.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.Advanced_Ex1.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse8\ThucHanhBuoi8\obj\Debug\ThucHanhBuoi8.Advanced_Ex2.resources

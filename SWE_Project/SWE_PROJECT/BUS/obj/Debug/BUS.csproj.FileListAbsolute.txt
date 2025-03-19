@@ -1,0 +1,6 @@
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\BUS\bin\Debug\BUS.exe.config
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\BUS\bin\Debug\BUS.exe
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\BUS\bin\Debug\BUS.pdb
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\BUS\obj\Debug\BUS.exe
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\BUS\obj\Debug\BUS.pdb

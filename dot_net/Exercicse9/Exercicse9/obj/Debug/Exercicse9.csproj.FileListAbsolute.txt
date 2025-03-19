@@ -1,0 +1,15 @@
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\bin\Debug\Exercicse9.exe.config
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\bin\Debug\Exercicse9.exe
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\bin\Debug\Exercicse9.pdb
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.csproj.AssemblyReference.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.Properties.Resources.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.csproj.GenerateResource.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.exe
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.pdb
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.MainForm.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.Sample_Ex1.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.Sample_Ex2.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.ClassForm1.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.ClassForm2.resources
+D:\Visual Studio 2019 - Github\zohanubis\dot_net\Exercicse9\Exercicse9\obj\Debug\Exercicse9.HomeWorkForm.resources

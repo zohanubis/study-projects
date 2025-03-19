@@ -1,0 +1,12 @@
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\bin\Debug\Account_DTO.cs
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\bin\Debug\DAO.dll.config
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\bin\Debug\DAO.dll
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\bin\Debug\DAO.pdb
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\bin\Debug\DTO.dll
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\bin\Debug\DTO.pdb
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\bin\Debug\DTO.dll.config
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\obj\Debug\DAO.csproj.CopyComplete
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\obj\Debug\DAO.dll
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\DAO\obj\Debug\DAO.pdb

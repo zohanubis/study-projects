@@ -1,0 +1,34 @@
+Bài 1 : Thông tin Nhân Viên công ty ABC gồm
+Mã Nhân Viên (string), Tên Nhân Viên (string), Trình Độ (string), Nơi Đào Tạo (string), Hệ số lương (double), Số Lỗi Vi Phạm (int). Lương cơ bản hiện tại 1,5 triệu.
+1. Xây dựng phương thức get/set thuộc tính Mã Nhân Viên : 2 ký tự đầu là "01"
+2. Xây dựng phương thức get/set thuộc tính Nơi đào tạo : Việt Nam hoặc Nước Ngoài
+3. Xây dựng phương thức khởi tạo sao chép
+4. Xây dựng phương thức tính lương = hệ số lương * lương cơ bản + thu nhập tăng thêm
+    - Nhân viên có phần trăm hoa hồng. Thu nhập tăng thêm = phần trăm hoa hồng * 5000000
+    - Ban giám đốc có chức vụ và hệ số chức vụ : Thu nhập tăng thêm = hệ số chức vụ * lương cơ bản
+5. Xây dựng phương thức tính Thực Lãnh = Lương * hệ số thi đua (HSTD)
+    Nhân Viên 0 lỗi vi phạm HSTD = 1.0, 1 lỗi vi phạm HSTD = 0.75 còn lại HSTD = 0.5. Ban giám đốc HSTD luôn luôn bằng 1
+6. Mức hỗ trợ chi phí nhân viên có nơi đào tạo nước ngoài : Lương cơ bản * 2.0
+
+
+Bài 2 : Một công ty phần mềm cần quản lý nhân viên trong công ty
+Có 3 loại nhân viên Hành Chính, Phát Triển Phần Mềm, Kiểm Thử Phần Mềm, Thông tin nhân viên bao gồm có mã nhân viên, họ tên, ngày sinh, hệ số lương, ngày vào làm và phương thức tính Lương
+- Lương được tính khác nhau tùy vào mỗi loại nhân viên :
+1. Nhân viên Hành Chính : có thêm thông tin số lần vi phạm trong tháng
+    Lương = lương cơ bản * hệ số lương - số lần vi phạm * 50
+2. Nhân viên Phát Triển Phần Mềm : có thêm thuộc tính modul ghi lại số modul  mà nhân viên đó thực hiện trong tháng, số giờ tăng ca 
+    Lương = Lương cơ bản * hệ số lương * thưởng theo modul.
+    Nếu số modul lớn hơn 15 thì thưởng mỗi modul 500/modul ngược lại thưởng 300/modul 
+3. Nhân viên Kiểm thử phần mềm : có thêm thông tin về số lỗi sản phẩm làm ngoài giờ trong tháng , số lỗi sản phẩm quan trọng
+    Lương = lương cơ bản * hệ số lương + thưởng theo lỗi
+    Nếu số lỗi tìm thấy lớn hơn 5 thì thưởng 300/lỗi, ngược lại 200/Lỗi
+- Xây dựng lớp NhanVien với các thông tin được mô tả như trên:
+1. Hãy xây dựng phương thức khởi tạo mặc định để tạo ra một nhân viên có mã là "NV0001" họ tên là Phạm Thanh Bình,ngày sinh "15/3/1996", hệ số lương 2.34, ngày vào làm là ngày hiện tại
+2. Xây dựng phương thức khởi tạo có tham số
+3. Xây dựng phương thức get/set cho thuộc tính mã nhân viên, hệ số lương. Biết rằng mã nhân viên có 6 ký tự, trong đó có 2 kí tự đầu là "NV" và ký tự sau là chỉ nhận giá trị số thể hiện thứ tự của nhân viên. Hệ số lương lớn hơn hoặc bằng 2.34
+4. Xây dựng phương thức tính lương hệ số cho nhân viên theo công thức : Lương hệ số = Lương cơ bản * hệ số lương. 
+    Lương cơ bản áp dụng cho tất cả các nhân viên, hiện tại là 1400
+5. Xây dựng phương thức tính lương cho nhân viên theo mô tả ở trên
+Ngoài ra, tùy vào mỗi giai đoạn, nhân viên Phát triển phần mềm và Kiểm Thử có thể phải làm tăng ca để kịp tiến độ dự án . Công Ty có chế độ hỗ trợ lương ngoài giờ cho những nhân viên thực hiện dự án như sau :
+- Nhân viên phát triển phần mềm :  Lương ngoài giờ = số lương tăng ca * Lương giờ, nếu số giờ lớn hơn 20 từ giờ thứ 21 trở đi chỉ tính 1/2 Lương giờ. Lương giờ áp dụng giống nhau cho các nhân viên phát triển phần mềm và thay đổi theo thời gian, hiện tại là 200/ giờ
+- Nhân viên kiểm thử phần mềm : Lương ngoài giờ = số lỗi sản phẩm ngoài giờ * 50, nếu số lỗi sản phẩm làm ngoài giờ lớn 50 thì từ giờ thứ 51 trở đi chỉ tính 30/lỗi

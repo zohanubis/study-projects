@@ -1,0 +1,13 @@
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\bin\Debug\SWE_PROJECT.exe.config
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\bin\Debug\SWE_PROJECT.exe
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\bin\Debug\SWE_PROJECT.pdb
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\bin\Debug\Guna.UI2.dll
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.csproj.AssemblyReference.cache
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.Properties.Resources.resources
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.csproj.GenerateResource.cache
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.csproj.CoreCompileInputs.cache
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.csproj.CopyComplete
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.exe
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.pdb
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.Login.resources
+D:\PROJECT ĐỒ ÁN\zohanubis\SWE_Project\SWE_PROJECT\SWE_PROJECT\obj\Debug\SWE_PROJECT.Loading.resources
